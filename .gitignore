@@ -4,45 +4,36 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
-*.egg
 *.egg-info/
 dist/
 build/
 .eggs/
 
-# Base de datos
-*.sqlite3
-*.db
-*.db-shm
-*.db-wal
-
 # Entornos virtuales
 venv/
 .venv/
 env/
-.env/
-ENV/
+.env
+
+# Base de datos local (NO subir a GitHub)
+db.sqlite3
+*.sqlite3
+*.db
 
 # Variables de entorno
 .env
 .env.local
-.env.*.local
+secrets.toml
+
+# Streamlit
+.streamlit/secrets.toml
 
 # IDEs
 .vscode/
 .idea/
 *.swp
 *.swo
+
+# OS
 .DS_Store
 Thumbs.db
-
-# Streamlit
-.streamlit/secrets.toml
-
-# Backups locales
-backup-*.json
-*.bak
-
-# Logs
-*.log
-logs/
