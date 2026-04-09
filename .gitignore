@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Base de datos
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Backups locales
+backup-*.json
+*.bak
+
+# Logs
+*.log
+logs/
